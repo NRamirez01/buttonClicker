@@ -5,14 +5,53 @@ body {
 h1 {
     display: flex;
     justify-content: space-between;
+    margin: 0px 20%;
+    background-color: blue;
 }
 .columns {
     display: flex;
     justify-content: space-between;
+    margin: 0px 20%;
 }
-.columns{
-    
+.ninjaone, .ninjatwo {
+    display: flex;
+    align-items: center;
+    border: black solid 3px;
+    width: 400px;
+    height: 150px;
+    margin: 15px 0px 15px 0px;
+    padding: 0px 15px;
 }
-.byYou {
-    
+.right{
+    margin-left: 30px;
+}
+.defs{
+    display: flex;
+    flex-direction: column;
+}
+.plural{
+    display: flex;
+    padding-right: 3px;
+}
+.right *{
+    display: inline;
+}
+.link, .linkclose {
+    color: blue;
+    text-decoration: underline;
+}
+.linkclose {
+margin-right: -3px;
+}
+.byYou{
+    display: flex;
+    flex-direction: column;
+    border: black solid 3px;
+    margin-top: 15px;
+    padding: 25px;
+    height: 100px;
+    justify-content: space-between;
+}
+.word {
+
 }
