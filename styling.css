@@ -6,7 +6,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin: 0px 20%;
-    background-color: blue;
+    background-color: lightgrey;
+    padding: 25px;
 }
 .columns {
     display: flex;
@@ -28,6 +29,7 @@ h1 {
 .defs{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .plural{
     display: flex;
@@ -53,5 +55,19 @@ margin-right: -3px;
     justify-content: space-between;
 }
 .word {
-
+    font-size: 30px;
+    font-weight: bold;
+}
+.noun {
+    font-size: 20px;
+}
+.noun, .ital {
+    font-style: italic;
+}
+.likes {
+    margin-top: 20px;
+    background-color: yellow;
+    width: 80px;
+    height: 40px;
+    box-shadow: 2px 2px 2px black
 }
